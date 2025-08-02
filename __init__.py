@@ -1,4 +1,4 @@
-from .kaggle_local_save_node import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
+from .node_registry import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
 
 WEB_DIRECTORY = "./js"
 
