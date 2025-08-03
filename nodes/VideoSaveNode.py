@@ -23,7 +23,7 @@ class KaggleLocalSaveVideoNode:
             "required": {
                 "images": ("IMAGE",),
                 "prefix": ("STRING", {"default": "kaggle_generated"}),
-                "file_format": (["WEBM", "MP4"], {"default": "WEBM"}),
+                "file_format": (["GIF", "WEBM", "MP4"], {"default": "WEBM"}),
             }
         }
 

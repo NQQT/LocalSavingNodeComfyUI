@@ -80,7 +80,10 @@ class ImageSaveNode:
             return (images,)
 
         except Exception as e:
+            # Unable to process images
             error_msg = f"Error processing images: {str(e)}"
+
+            # SEnding to Local Save error
             PromptServer.instance.send_sync("kaggle_local_save_error", {
                 "message": error_msg
             })
